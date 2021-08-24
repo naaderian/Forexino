@@ -1,5 +1,4 @@
-// AOS.js
-AOS.init();
+
 
 // loader
 window.onload = () => {
