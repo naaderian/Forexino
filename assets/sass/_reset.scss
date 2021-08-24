@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    outline: none;
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+::selection {
+    background-color: $primary;
+    color: $white;
+}
+a{
+    text-decoration: none;
+}
+p{
+    line-height: 2;
+    margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}

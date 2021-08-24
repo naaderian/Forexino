@@ -1,0 +1,58 @@
+.primary-btn {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 5px 0 50px 1px $shadow;
+    font-size: 13px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border: 1px solid $primary;
+    background-color: $primary;
+    color: $white;
+    &:hover {
+        color: $white;
+        background-color: $secondary;
+        border: 1px solid $secondary;
+    }
+}
+.secondary-btn {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 5px 0 50px 1px $shadow;
+    font-size: 13px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border: 1px solid $primary;
+    background-color: $white;
+    color: $primary;
+    &:hover {
+        color: $white;
+        background-color: $secondary;
+        border: 1px solid $secondary;
+    }
+}
+.third-btn {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 5px 0 50px 1px $shadow;
+    font-size: 13px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border: 1px solid $white;
+    background-color: $white;
+    color: $primary;
+    &:hover {
+        //width: 90%;
+    }
+}
